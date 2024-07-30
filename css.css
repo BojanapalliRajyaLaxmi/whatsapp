@@ -1,0 +1,160 @@
+*{
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: inline-block;
+}
+.container{
+    width: 71.6mm;
+    height: 146.7mm;
+    margin: auto;
+    position: relative;
+    top:100px;
+    border-radius: 38px;
+    background-image: url(wall.jpg);
+    background-size:cover;
+}
+.header{
+    position: relative;
+    width: 71.6mm;
+    height: 60px;
+    background-color:wheat;
+    border-top-left-radius: 38px;
+    
+    border-top-right-radius: 34px;
+}
+.dateinfo{
+    position: sticky;
+    top: 8px;
+    left: 40%;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.arrow{
+    position:relative;
+    top: 0px;
+    left: 10px;
+
+}
+.pp{
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    left: 8px;
+}
+h2{
+    font-size: 13px;
+    position: absolute;
+    left: 70px;
+    top: 3px;
+    width: 80px;
+}
+.status{
+    font-size: 10px;
+}
+.dots{
+    position: absolute;
+    top: 20px;
+    right: 12px;
+}
+.call{
+    position: absolute;
+    top: 20px;
+    right:59px;
+}
+.video{
+    position: absolute;
+    top: 20px;
+    right:26px
+}
+.message{
+    overflow: auto;
+    scrollbar-width: none;
+    height: 449px;
+    width: 270px;
+    font-size: 13px;
+}
+.joe{
+    float:left;
+    background-color: lightgray;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 25px;
+    height: auto;
+    padding: 2px;
+    background-color: gray;
+    text-align: center;
+}
+.john{
+    float: right;
+    background-color: lightgray;
+    margin-right: 10px;
+    border-radius: 25px;
+    /* width: 120px; */
+    clear: both;
+    height: auto;
+    padding: 2px;
+    background-color: rgb(101, 193, 101);
+    text-align: center;
+    
+}
+.time{
+    font-size: 8px;
+    float: inline-end;
+}
+.left{
+    position: absolute;
+    bottom: 20px;
+}
+.tarea{
+    position: absolute;
+    bottom: 10px;
+    padding: 5px;
+    left: 10px;
+    width: 218px;
+    outline: 0px;
+    border-radius:32px ;
+    text-indent:30px;
+    
+}
+.emoji{
+    position: absolute;
+    bottom: 13px;
+    left: 17px;
+    padding: 2px;
+    border-radius: 12px;
+    background-color:white
+}
+.pin{
+    position: absolute;
+    bottom: 12px;
+    left: 157px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 12px;
+}
+.pay{
+    position: absolute;
+    bottom: 12px;
+    left: 181px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 12px;
+}
+.cam{
+    position: absolute;
+    bottom: 12px;
+    left: 200px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 12px;
+}
+.mic{
+    position: absolute;
+    bottom: 8px;
+    left: 230px;
+    background-color: white;
+    border-radius: 38px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
