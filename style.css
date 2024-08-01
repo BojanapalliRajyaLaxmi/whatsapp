@@ -1,0 +1,168 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    height: 146.7mm;
+    width:71.6mm ;
+    border: 2px solid;
+    border-radius: 38px;
+    position: relative;
+    top:100px;
+}
+.header{
+    background-color: white;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    font-size: 18px;
+    position: sticky;
+    top:0px;
+    width: 71.6mm;
+    height: 50px;
+}
+.wtsapp{
+    color: rgb(13, 192, 13);
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left:10px;
+}
+.dots,.cam,.bar{
+    position: absolute;
+    top: 20px;
+}
+.dots{
+    right:20px
+}
+.cam{
+    right:40px
+}
+.bar{
+    right:70px
+}
+.input{
+    width:70mm;
+    border: none;
+    background-color:rgba(220, 204, 204, 0.4);
+    height: 25px;
+    border-radius: 38px;
+}
+input::placeholder{
+    float: left;
+    margin-left: 30px;
+}
+.con1{
+    background-color:rgb(144, 238, 144,0.9);
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 12px;
+}
+.con2{
+    padding: 3px;
+    background-color: rgba(220, 204, 204, 0.4);
+    margin-left: 10px;
+    border-radius: 12px;
+}
+.scroll{
+    overflow: auto;
+    scrollbar-width: none;
+}
+/* .info1{
+    overflow: auto;
+    scrollbar-width: none;
+} */
+.arc{
+    position: relative;
+    left: 20px;
+}
+.chats{
+    height: 76mm;
+    display: block;
+    /* border: 2px solid yellow; */
+    position: relative;
+}
+.a{
+    color: black;
+}
+.mesage{
+    margin:8px;
+    border-radius: 12px;
+    height: 50px;
+    position: relative;
+    /* border: 2px solid yellow; */
+}
+.hello{
+   position: absolute;
+   top:-12px;
+   left:60px;
+}
+.hello2{
+    position: absolute;
+    top:14px;
+    left:60px;
+    font-size:12px;
+}
+.date{
+    position: absolute;
+    top:-12px;
+    right: 12px;
+    font-size: 13px;
+
+}
+img{
+    width: 40px;
+    border-radius:50%;
+    margin-left: 5px;
+    height: 40px;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0px;
+    /* border: 2px solid blue; */
+    height: 50px;
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+}
+.mschat{
+    background-color: rgb(100, 189, 100,0.9);
+    padding: 15px;
+    border-radius: 20px;
+}
+.call,.commu,.update,.chati{
+    position: absolute;
+    top: 7px;
+}
+.commu{
+    right:85px;
+}
+.chati{
+    left:20px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgb(0, 128, 0,0.5);
+}
+.call{
+    right:25px;
+}
+.update{
+    left:85px;
+}
+.chas,.com,.cal,.up{
+    position: absolute;
+    top:13px;
+    padding: 4px;
+    font-size: 14px;
+}
+.chas{
+    left:17px;
+}
+.cal{
+    right:12px;
+}
+.com{
+    right:55px;
+}
+.up{
+    left:63px;
+    
+}
